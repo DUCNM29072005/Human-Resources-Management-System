@@ -1,0 +1,11 @@
+</div> <!-- đóng .main-content -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Toggle sidebar trên mobile
+    document.getElementById('btnToggleSidebar')?.addEventListener('click', function () {
+        document.getElementById('sidebar').classList.toggle('show');
+    });
+</script>
+</body>
+</html>

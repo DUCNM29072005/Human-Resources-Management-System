@@ -1,0 +1,5 @@
+# Ưu tiên chạy index.php khi vào thư mục
+DirectoryIndex index.php
+
+# Tắt liệt kê thư mục (không cho xem "Index of /...")
+Options -Indexes
